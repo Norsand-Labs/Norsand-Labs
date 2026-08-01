@@ -1,4 +1,4 @@
-## Hi there 👋
+## This is an educational website focused on learning about the NorSand soil model and creating visualizations
 
 <!--
 **Norsand-Labs/Norsand-Labs** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
