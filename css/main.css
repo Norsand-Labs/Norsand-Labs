@@ -1,6 +1,4 @@
-/* ============================
-   Tokens
-   ============================ */
+
 :root {
   --color-bg: rgba(248, 250, 255, 1);
   --color-panel: rgba(255, 255, 255, 1);
@@ -186,12 +184,12 @@ a {
   color: var(--color-text-faint);
 }
 
-/* Equations lost from the original export: flagged rather than
-   guessed at, so they're easy to find and replace. */
+
 .equation {
-  font-family: var(--font-mono);
-  font-size: 13px;
-  color: var(--color-text-faint);
+  font-family: var(--font-body);
+  text-align: center;
+  font-size: 20px;
+  color: var(--color-accent);
   background: var(--color-panel);
   border: 1px dashed var(--color-border);
   border-radius: 6px;

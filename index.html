@@ -35,21 +35,21 @@
 
         <p class="sidebar__eyebrow">Core Concepts</p>
         <ul class="sidebar__list">
-          <li><a href="#critical-state-idea">The Critical State Idea</a></li>
-          <li><a href="#stress-variables">The Stress Variables Used in Triaxial Loading</a></li>
+          <li><a href="#critical-state-idea">Critical State Idea</a></li>
+          <li><a href="#stress-variables">Stress Variables Used in Triaxial Loading</a></li>
           <li><a href="#void-ratio">Void Ratio and Soil Packing</a></li>
-          <li><a href="#critical-state-line">The Critical State Line</a></li>
-          <li><a href="#state-parameter">The State Parameter</a></li>
+          <li><a href="#critical-state-line">Critical State Line</a></li>
+          <li><a href="#state-parameter">State Parameter</a></li>
           <li><a href="#contraction-dilation">Contraction and Dilation</a></li>
-          <li><a href="#yield-surface">The NorSand Yield Surface</a></li>
-          <li><a href="#image-point">The Image Point</a></li>
+          <li><a href="#yield-surface">NorSand Yield Surface</a></li>
+          <li><a href="#image-point">Image Point</a></li>
           <li><a href="#limiting-dilatancy">Limiting Dilatancy and the Internal Cap</a></li>
           <li><a href="#hardening-softening">Hardening and Softening</a></li>
           <li><a href="#elastic-stiffness">Elastic Stiffness</a></li>
           <li><a href="#drained-undrained">Drained and Undrained Loading</a></li>
-          <li><a href="#visualizations-shown">What the visualizations show</a></li>
+          <li><a href="#visualizations-shown">What the Visualizations Show</a></li>
           <li><a href="#validation-scope">Validation and Current Scope</a></li>
-          <li><a href="#where-to-begin">Where to begin</a></li>
+          <li><a href="#where-to-begin">Where to Begin</a></li>
         </ul>
 
         <p class="sidebar__eyebrow">&nbsp;</p>
@@ -63,7 +63,7 @@
     <main class="content">
 
       <section id="about" class="content__block">
-        <h1>About This Website</h1>
+        <h1>About this Website</h1>
         <p>The purpose of this website is to make these ideas easier to learn. Some NorSand concepts such as the state parameter, image point, internal cap, limiting yield surface, dilatancy, and yield-surface evolution can be difficult to understand from equations and static diagrams alone. Here, these concepts are explained gradually and connected to interactive visualizations of conventional triaxial tests.</p>
         <p>The website is organized around three goals:</p>
         <ul>
@@ -80,7 +80,7 @@
       </section>
 
       <section id="critical-state-idea" class="content__block">
-        <h2>The critical-state idea</h2>
+        <h2>Critical-state idea</h2>
         <p>NorSand is built within the framework of Critical State Soil Mechanics, commonly abbreviated as CSSM. The main idea of CSSM is that soil strength cannot be described by friction alone. Soil behavior also depends on its density, effective stress, and position relative to critical state. When a soil is sheared through sufficiently large strain, it may eventually reach a condition in which it continues deforming without further change in stress or volume. This condition is called the critical state. Critical State Soil Mechanics was developed largely through early research on clays. Its application to sands was subsequently advanced through several developments, including the state parameter introduced by Been and Jefferies (1985). The state parameter later became a central component of the NorSand model developed by Jefferies (1993).</p>
         <p>At critical state:</p>
         <ul>
@@ -95,7 +95,7 @@
       </section>
 
       <section id="stress-variables" class="content__block">
-        <h2>The stress variables used in triaxial loading</h2>
+        <h2>Stress variables used in triaxial loading</h2>
         <p>This website initially focuses on conventional axisymmetric triaxial compression. In this test, the specimen is subjected to a major principal effective stress, <math><msubsup><mi>&sigma;</mi><mn>1</mn><mo>&prime;</mo></msubsup></math>, in the axial direction and two equal minor principal effective stresses, <math><msubsup><mi>&sigma;</mi><mn>2</mn><mo>&prime;</mo></msubsup><mo>=</mo><msubsup><mi>&sigma;</mi><mn>3</mn><mo>&prime;</mo></msubsup></math>, in the radial directions. The mean effective stress is:</p>
         <p class="equation"><math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mi>p</mi><mo lspace="0em" rspace="0em">&#x2032;</mo></msup><mo>=</mo><mfrac><mrow><msubsup><mi>&#x3c3;</mi><mn>1</mn><mo lspace="0em" rspace="0em">&#x2032;</mo></msubsup><mo>+</mo><mn>2</mn><msubsup><mi>&#x3c3;</mi><mn>3</mn><mo lspace="0em" rspace="0em">&#x2032;</mo></msubsup></mrow><mn>3</mn></mfrac></math></p>
         <p>and the deviator stress is</p>
@@ -115,7 +115,7 @@
       </section>
 
       <section id="critical-state-line" class="content__block">
-        <h2>The Critical State Line</h2>
+        <h2>Critical state line</h2>
         <p>The critical state does not correspond to one single stress or one single void ratio. Instead, there is a range of critical states associated with different effective stress levels. These conditions form the critical state line, or CSL. The CSL is commonly shown in two spaces.</p>
         <p><strong>CSL in <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msup><mi mathvariant="bold-italic">p</mi><mo lspace="0em" rspace="0em">&#x2032;</mo></msup><mo>&#x2212;</mo><mi mathvariant="bold-italic">q</mi></mrow></math> space:</strong> In triaxial compression, the critical state line is <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>q</mi><mo>=</mo><mi>M</mi><msup><mi>p</mi><mo lspace="0em" rspace="0em">&#x2032;</mo></msup></mrow></math>.  It passes through the origin with slope equal to the critical-state stress ratio, <em>M</em>.</p>
         <p><strong>CSL in void ratio&ndash;mean effective stress space:</strong> The CSL also describes how the critical-state void ratio decreases as mean effective stress increases. A commonly used semi-logarithmic form is:</p>
@@ -131,7 +131,7 @@
       </section>
 
       <section id="state-parameter" class="content__block">
-        <h2>The State Parameter</h2>
+        <h2>State parameter</h2>
         <p>The state parameter is one of the most important concepts in NorSand. It was introduced by Been and Jefferies (1985) and is defined as</p>
         <p class="equation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>&#x3c8;</mi><mo>=</mo><mi>e</mi><mo>&#x2212;</mo><msub><mi>e</mi><mi>c</mi></msub><mrow><mo>(</mo><msup><mi>p</mi><mo lspace="0em" rspace="0em">&#x2032;</mo></msup><mo>)</mo></mrow></mrow></math></p>
         <p>It measures the vertical distance between the current state of the soil and the critical state line at the same mean effective stress. When <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>&#x3c8;</mi><mo>&gt;</mo><mn>0</mn></mrow></math>, the current void ratio is greater than the critical void ratio.  The soil is looser than the critical state at the same effective stress; such a state generally has a stronger tendency to contract during shearing. When <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>&#x3c8;</mi><mo>&lt;</mo><mn>0</mn></mrow></math> the current void ratio is smaller than the critical void ratio.  The soil is denser than the critical state at the same effective stress; such a state generally has a stronger tendency to dilate during shearing. At critical state, <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>&#x3c8;</mi><mo>=</mo><mn>0</mn></mrow></math>. The state parameter is useful because it combines density and effective stress in one quantity. Two specimens with the same void ratio may behave differently because they are subjected to different effective stress levels — their state parameters reveal this difference. For an initial mean effective stress <math xmlns="http://www.w3.org/1998/Math/MathML"><msubsup><mi>p</mi><mn>0</mn><mo lspace="0em" rspace="0em">&#x2032;</mo></msubsup></math>, the initial state is defined by</p>
@@ -141,7 +141,7 @@
       </section>
 
       <section id="contraction-dilation" class="content__block">
-        <h2>Contraction and Dilation</h2>
+        <h2>Contraction and dilation</h2>
         <p>When soil is sheared, its particles rearrange. A loose arrangement may allow particles to move into the available void spaces, producing contraction. A dense arrangement may require particles to climb over one another, producing dilation. NorSand describes the plastic volume-change tendency using plastic dilatancy,</p>
         <p class="equation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msub><mi>D</mi><mi>p</mi></msub><mo>=</mo><mfrac><mrow><mi>d</mi><msubsup><mi>&#x3b5;</mi><mi>v</mi><mi>p</mi></msubsup></mrow><mrow><mi>d</mi><msubsup><mi>&#x3b5;</mi><mi>q</mi><mi>p</mi></msubsup></mrow></mfrac></mrow></math></p>
         <p>In the implementation used here, plastic dilatancy is expressed as</p>
@@ -150,14 +150,14 @@
       </section>
 
       <section id="yield-surface" class="content__block">
-        <h2>The NorSand Yield Surface</h2>
+        <h2>NorSand yield surface</h2>
         <p>The yield surface defines the boundary of the elastic domain in stress space. Stress changes that remain inside the yield surface are treated as elastic and recoverable. When the stress state lies on the yield surface, continued loading that would otherwise move it outside the surface produces plastic deformation. In NorSand, the outer yield surface is expressed in terms of <em>p′</em>, <em>q</em>, an image pressure <math xmlns="http://www.w3.org/1998/Math/MathML"><msubsup><mi>p</mi><mi>i</mi><mo lspace="0em" rspace="0em">&#x2032;</mo></msubsup></math>, and an image stress ratio <em>M<sub>i</sub></em>. In triaxial stress space, it is written as:</p>
         <p class="equation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mfrac><mi>q</mi><msup><mi>p</mi><mo lspace="0em" rspace="0em">&#x2032;</mo></msup></mfrac><mo>=</mo><msub><mi>M</mi><mi>i</mi></msub><mrow><mo>[</mo><mn>1</mn><mo>&#x2212;</mo><mi>ln</mi><mo>&#x2061;</mo><mrow><mo>(</mo><mfrac><msup><mi>p</mi><mo lspace="0em" rspace="0em">&#x2032;</mo></msup><msubsup><mi>p</mi><mi>i</mi><mo lspace="0em" rspace="0em">&#x2032;</mo></msubsup></mfrac><mo>)</mo></mrow><mo>]</mo></mrow></mrow></math></p>
         <p>The image pressure <math xmlns="http://www.w3.org/1998/Math/MathML"><msubsup><mi>p</mi><mi>i</mi><mo lspace="0em" rspace="0em">&#x2032;</mo></msubsup></math> controls the size of the yield surface. During plastic loading, the current stress state lies on the yield surface, while the surface evolves as <math xmlns="http://www.w3.org/1998/Math/MathML"><msubsup><mi>p</mi><mi>i</mi><mo lspace="0em" rspace="0em">&#x2032;</mo></msubsup></math> and <em>M<sub>i</sub></em> change during shearing.</p>
       </section>
 
       <section id="image-point" class="content__block">
-        <h2>The Image Point</h2>
+        <h2>Image point</h2>
         <p>The image point is located at the apex of the NorSand yield surface. At this point <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msup><mi>p</mi><mo lspace="0em" rspace="0em">&#x2032;</mo></msup><mo>=</mo><msubsup><mi>p</mi><mi>i</mi><mo lspace="0em" rspace="0em">&#x2032;</mo></msubsup><mo separator="true">,</mo><mtext>&#xa0;</mtext><mi>&#x3b7;</mi><mo>=</mo><msub><mi>M</mi><mi>i</mi></msub></mrow></math> and <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msub><mi>D</mi><mi>p</mi></msub><mo>=</mo><mn>0</mn></mrow></math>. The image pressure <math xmlns="http://www.w3.org/1998/Math/MathML"><msubsup><mi>p</mi><mi>i</mi><mo lspace="0em" rspace="0em">&#x2032;</mo></msubsup></math> controls the size of the current yield surface, so a larger <math xmlns="http://www.w3.org/1998/Math/MathML"><msubsup><mi>p</mi><mi>i</mi><mo lspace="0em" rspace="0em">&#x2032;</mo></msubsup></math> corresponds to a larger yield surface for a given <em>M<sub>i</sub></em>. The image point does not generally coincide with the current stress state. Instead, it is an internal reference condition used by NorSand to relate the current soil state, stress&ndash;dilatancy response, and evolution of the yield surface. As loading proceeds, <math xmlns="http://www.w3.org/1998/Math/MathML"><msubsup><mi>p</mi><mi>i</mi><mo lspace="0em" rspace="0em">&#x2032;</mo></msubsup></math> evolves, causing the yield surface to expand or contract.</p>
       </section>
 
@@ -168,37 +168,51 @@
 
       <section id="hardening-softening" class="content__block">
         <h2>Hardening and softening</h2>
-        <p>The NorSand hardening law controls the evolution of the image pressure. When the current state parameter is looser than the image condition, plastic shearing generally causes the image pressure to increase and the yield surface to expand — this is referred to as hardening. When the current state is denser than the image condition, the hardening law drives the image pressure downward, causing the yield surface to contract — this is referred to as softening. The model's hardening parameters control how rapidly the image pressure evolves with plastic straining. At critical state, the state parameter and plastic dilatancy approach zero, and continued shearing occurs without further change in mean effective stress, deviator stress, or void ratio.</p>
+        <p>The NorSand hardening law controls the evolution of the image pressure <math xmlns="http://www.w3.org/1998/Math/MathML"><msubsup><mi>p</mi><mi>i</mi><mo lspace="0em" rspace="0em">&#x2032;</mo></msubsup></math>. When <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msubsup><mi>p</mi><mi>i</mi><mo lspace="0em" rspace="0em">&#x2032;</mo></msubsup><mo>&lt;</mo><msubsup><mi>p</mi><mrow><mi>i</mi><mo separator="true">,</mo><mi>max</mi><mo>&#x2061;</mo></mrow><mo lspace="0em" rspace="0em">&#x2032;</mo></msubsup></mrow></math>, plastic shearing generally causes the image pressure to increase and the yield surface to expand — this is referred to as hardening. When <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msubsup><mi>p</mi><mi>i</mi><mo lspace="0em" rspace="0em">&#x2032;</mo></msubsup><mo>&gt;</mo><msubsup><mi>p</mi><mrow><mi>i</mi><mo separator="true">,</mo><mi>max</mi><mo>&#x2061;</mo></mrow><mo lspace="0em" rspace="0em">&#x2032;</mo></msubsup></mrow></math>, the hardening law drives the image pressure downward, causing the yield surface to contract — this is referred to as softening. The model's hardening parameters control how <math xmlns="http://www.w3.org/1998/Math/MathML"><msubsup><mi>p</mi><mi>i</mi><mo lspace="0em" rspace="0em">&#x2032;</mo></msubsup></math> evolves with plastic straining. At critical state, the state parameter and plastic dilatancy approach zero, and continued shearing occurs without further change in mean effective stress, deviator stress, or void ratio.</p>
       </section>
 
       <section id="elastic-stiffness" class="content__block">
-        <h2>Elastic Stiffness</h2>
+        <h2>Elastic stiffness</h2>
         <p>Before and during plastic loading, NorSand requires an elastic relationship. The formulation used for the simulations presented on this website adopts a pressure-dependent elastic shear modulus:</p>
-        <p class="equation" data-missing="true">!!!!!!!!</p>
-        <p>where <em>G<sub>ref</sub></em> is the shear modulus at the reference pressure, <em>G</em> is the current shear modulus, and the exponent controls how stiffness changes with effective stress. For example, an exponent of 0 gives a constant shear modulus, while an exponent of 1 gives a shear modulus proportional to mean effective stress. A rigidity index may also be written as:</p>
-        <p class="equation" data-missing="true">!!!!!!!!</p>
-        <p>It remains constant when the exponent is 1, but varies with mean effective stress for other values of the exponent. The elastic parameters mainly influence the initial stiffness and the elastic part of the response, while the critical-state, dilatancy, and hardening parameters govern the subsequent elastoplastic response. Poisson's ratio, or an equivalent bulk-modulus specification, is also required so that the elastic shear and volumetric responses are calculated consistently. The elastic bulk modulus is:</p>
-        <p class="equation" data-missing="true">!!!!!!!!</p>
+        <p class="equation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>G</mi><mo>=</mo><msub><mi>G</mi><mrow><mrow><mi mathvariant="normal">r</mi></mrow><mrow><mi mathvariant="normal">e</mi></mrow><mrow><mi mathvariant="normal">f</mi></mrow></mrow></msub><msup><mrow><mo>(</mo><mfrac><msup><mi>p</mi><mo lspace="0em" rspace="0em">&#x2032;</mo></msup><msub><mi>p</mi><mrow><mi>r</mi><mi>e</mi><mi>f</mi></mrow></msub></mfrac><mo>)</mo></mrow><mi>m</mi></msup></mrow></math></p>
+        <p>where <em>G<sub>ref</sub></em> is the shear modulus at the reference pressure, <em>G</em> is the current shear modulus, <em>m</em> controls how stiffness changes with effective stress. For example, <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>m</mi><mo>=</mo><mn>1</mn></mrow></math> gives <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mfrac><mi>G</mi><msup><mi>p</mi><mo lspace="0em" rspace="0em">&#x2032;</mo></msup></mfrac><mo>=</mo><mtext>constant</mtext></mrow></math>, while <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>m</mi><mo>=</mo><mn>0.5</mn></mrow></math> gives <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>G</mi><mo>&#x221d;</mo><msqrt><msup><mi>p</mi><mo lspace="0em" rspace="0em">&#x2032;</mo></msup></msqrt></mrow></math>. A rigidity index may also be written as:</p>
+        <p class="equation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msub><mi>I</mi><mi>r</mi></msub><mo>=</mo><mfrac><mi>G</mi><msup><mi>p</mi><mo lspace="0em" rspace="0em">&#x2032;</mo></msup></mfrac></mrow></math></p>
+        <p>It remains constant when <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>m</mi><mo>=</mo><mn>1</mn></mrow></math>, but varies with mean effective stress for other values of <em>m</em>. The elastic parameters mainly influence the initial stiffness and the elastic part of the response, while the critical-state, dilatancy, and hardening parameters govern the subsequent elastoplastic response. Poisson's ratio, <em>v</em>, or an equivalent bulk-modulus specification, is also required so that the elastic shear and volumetric responses are calculated consistently. The elastic bulk modulus is:</p>
+        <p class="equation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>K</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mi>G</mi><mo form="prefix" stretchy="false">(</mo><mn>1</mn><mo>+</mo><mi>&#x3bd;</mi><mo form="postfix" stretchy="false">)</mo></mrow><mrow><mn>3</mn><mo form="prefix" stretchy="false">(</mo><mn>1</mn><mo>&#x2212;</mo><mn>2</mn><mi>&#x3bd;</mi><mo form="postfix" stretchy="false">)</mo></mrow></mfrac></mrow></math></p>
       </section>
 
       <section id="drained-undrained" class="content__block content__block--stub">
-        <h2>Drained and Undrained Loading</h2>
-        <p class="stub-note">Content for this section has not been written yet.</p>
+        <h2>Drained and undrained loading</h2>
+        <p>This website initially presents four conventional triaxial compression cases: <ul><li>dense drained;</li><li>loose drained;</li><li>dense undrained;</li><li>loose undrained;</li></ul></p>
+        <p><strong>Drained Loading</strong></p>
+        <p>In a drained test, pore water is allowed to enter or leave the specimen and excess pore-water pressure is not sustained. The specimen can therefore change volume during shearing. A specimen that is dense of critical may contract initially and then dilate, often developing a peak deviator stress before softening toward critical state. A specimen that is loose of critical generally remains contractive and commonly hardens toward critical state without developing a pronounced peak above the critical-state strength. For the idealized drained simulations presented here, excess pore-water pressure is taken as, <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>&#x394;</mi><mi>u</mi><mo>=</mo><mn>0</mn></mrow></math>.</p>
+        <p><strong>Undrained Loading</strong></p>
+        <p>In an undrained test, water is not allowed to drain from the specimen. For a saturated soil, the total volume remains approximately constant. However, the soil skeleton may still have a tendency to contract or dilate. A contractive tendency produces positive excess pore-water pressure and reduces mean effective stress. A dilative tendency potentially produces negative excess pore-water pressure and increases mean effective stress. For conventional triaxial compression at constant total confining pressure, excess pore-water pressure is calculated as:</p>
+        <p class="equation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>&#x394;</mi><mi>u</mi><mo>=</mo><mfrac><mrow><mi>q</mi><mo>&#x2212;</mo><msub><mi>q</mi><mn>0</mn></msub></mrow><mn>3</mn></mfrac><mo>&#x2212;</mo><mo form="prefix" stretchy="false">(</mo><msup><mi>p</mi><mo lspace="0em" rspace="0em">&#x2032;</mo></msup><mo>&#x2212;</mo><msubsup><mi>p</mi><mn>0</mn><mo lspace="0em" rspace="0em">&#x2032;</mo></msubsup><mo form="postfix" stretchy="false">)</mo></mrow></math></p>
+        <p>For an initially isotropic condition with <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><msub><mi>q</mi><mn>0</mn></msub><mo>=</mo><mn>0</mn></mrow></math>,</p>
+        <p class="equation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>&#x394;</mi><mi>u</mi><mo>=</mo><msubsup><mi>p</mi><mn>0</mn><mo lspace="0em" rspace="0em">&#x2032;</mo></msubsup><mo>+</mo><mfrac><mi>q</mi><mn>3</mn></mfrac><mo>&#x2212;</mo><msup><mi>p</mi><mo lspace="0em" rspace="0em">&#x2032;</mo></msup></mrow></math></p>
+        <p>The website visualizations include a separate plot of excess pore-water pressure against axial strain for undrained simulations. NorSand parameters are generally calibrated together using several triaxial tests rather than fitting each parameter independently from a single response curve. A reliable calibration should reproduce the stress–strain response, the volumetric or pore-pressure response, and the effects of initial state and confining pressure.</p>
       </section>
 
       <section id="visualizations-shown" class="content__block content__block--stub">
         <h2>What the visualizations show</h2>
-        <p class="stub-note">Content for this section has not been written yet.</p>
+        <p>Each visualization follows the complete simulation history as axial strain increases. Depending on the selected example, users can observe:</p>
+        <p><ul><li>deviator stress versus axial strain;</li><li>mean effective stress versus deviator stress;</li><li>volumetric strain versus axial strain;</li><li>excess pore-water pressure versus axial strain;</li><li>current and image stress ratios;</li><li>contraction and dilation;</li><li>the current NorSand yield surface;</li><li>the current image point;</li><li>the limiting image condition;</li><li>hardening and softening;</li><li>deviator stress versus axial strain;</li><li>the evolution toward critical state</li></ul></p>
+        <p>A strain slider allows the user to move through the simulation and see how the stress state and internal model variables evolve together. The objective is to show the model mechanisms underlying the calculated response at each stage of loading.</p>
       </section>
 
       <section id="validation-scope" class="content__block content__block--stub">
-        <h2>Validation and Current Scope</h2>
-        <p class="stub-note">Content for this section has not been written yet.</p>
+        <h2>Validation and current scope</h2>
+        <p>The simulations presented on this website are generated using a MATLAB material-point implementation of NorSand developed for conventional axisymmetric triaxial compression. The implementation has been validated against four published GeoStudio/Excel-VBA NorSand benchmark cases. The comparisons include <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>q</mi><mo>&#x2212;</mo><msub><mi>&#x3b5;</mi><mn>1</mn></msub><mo separator="true">,</mo><mtext>&#xa0;</mtext><mtext>&#xa0;</mtext><msup><mi>p</mi><mo lspace="0em" rspace="0em">&#x2032;</mo></msup><mo>&#x2212;</mo><mi>q</mi><mo separator="true">,</mo><mtext>&#xa0;</mtext><msub><mi>&#x3b5;</mi><mi>v</mi></msub><mo>&#x2212;</mo><msub><mi>&#x3b5;</mi><mn>1</mn></msub></mrow></math>, and, for undrained loading, <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi>&#x394;</mi><mi>u</mi><mo>&#x2212;</mo><msub><mi>&#x3b5;</mi><mn>1</mn></msub></mrow></math>, , together with the evolution of state, dilatancy, stress ratio, image pressure, and the yield surface. The current implementation is intended as a learning and research tool for monotonic conventional triaxial compression. It is not yet a fully general three-dimensional NorSand implementation capable of representing:</p>
+        <p><ul><li>arbitrary stress paths;</li><li>principal-stress rotation;</li><li>triaxial extension;</li><li>plane-strain loading;</li><li>cyclic loading;</li><li>general finite-element stress integration.</li></ul></p>
+        <p>These capabilities may be considered in future stages of the project.</p>
       </section>
 
       <section id="where-to-begin" class="content__block content__block--stub">
         <h2>Where to begin</h2>
-        <p class="stub-note">Content for this section has not been written yet.</p>
+        <p>Readers new to NorSand may follow this learning path:</p>
+        <p class = "equation" style = "font-size: 16px;">Effective stress → Critical state → Critical state line → State parameter → Dilatancy → Yield surface → Image point → Hardening and softening → Triaxial response</p>
+        <p>Readers can explore the material in different ways depending on their background. Those new to Critical State Soil Mechanics may begin with the introductory concepts and follow the suggested learning sequence, while readers already familiar with CSSM can proceed directly to the NorSand model components, validated triaxial examples, and interactive visualizations. The website is intended to connect NorSand theory with the response calculated during loading. Its explanations introduce the main concepts in accessible language, while the visualizations show how the stress state and internal variables evolve together. The objective is to help users understand not only the resulting stress–strain curves, but also the constitutive mechanisms that produce them. The material should be viewed as a guided learning resource rather than a complete derivation of NorSand. Readers seeking a rigorous treatment of the formulation, theoretical foundations, calibration, and broader applications should consult the original publications and the second edition of <em>Soil Liquefaction: A Critical State Approach by Jefferies and Been.</em></p>
       </section>
 
       <section id="references" class="content__block content__block--stub">
